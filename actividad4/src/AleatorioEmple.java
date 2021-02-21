@@ -66,7 +66,7 @@ public class AleatorioEmple {
 		}
 		file.close();
 		
-		
+		System.out.println("Este es el método CREAR");
 	}// fin crear
 
 }// fin class
