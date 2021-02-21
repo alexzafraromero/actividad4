@@ -7,6 +7,7 @@ public class AleatorioEmple {
 	public static void main(String[] args) throws IOException {
 		crear();
 		leer();
+		System.out.println("Este es el método MAIN");
 	}
 
 	public static void leer() throws IOException {
@@ -41,6 +42,8 @@ public class AleatorioEmple {
 			System.out.println(" ------------------------------------------");
 		} else 
 			System.out.println(" ---------FICHERO VACÍO --------------------");
+		
+
 	}// fin verporconsola
 
 	public static void crear() throws IOException {
@@ -62,6 +65,8 @@ public class AleatorioEmple {
 			file.writeDouble(salario[i]);
 		}
 		file.close();
+		
+		
 	}// fin crear
 
 }// fin class
