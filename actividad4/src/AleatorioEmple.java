@@ -9,6 +9,10 @@ public class AleatorioEmple {
 		leer();
 		System.out.println("Este es el método MAIN");
 	}
+	
+	public static void Cambios(){
+		System.out.println("Nuevo método Cambios");
+	}
 
 	public static void leer() throws IOException {
 		File fichero = new File("AleatorioEmple.dat");
