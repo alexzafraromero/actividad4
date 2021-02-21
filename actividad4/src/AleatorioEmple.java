@@ -13,6 +13,10 @@ public class AleatorioEmple {
 	public static void Cambios(){
 		System.out.println("Nuevo método Cambios");
 	}
+	
+	public static void Cambios2(){
+		System.out.println("Nuevo método Cambios2");
+	}
 
 	public static void leer() throws IOException {
 		File fichero = new File("AleatorioEmple.dat");
