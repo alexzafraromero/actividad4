@@ -43,7 +43,7 @@ public class AleatorioEmple {
 		} else 
 			System.out.println(" ---------FICHERO VACÍO --------------------");
 		
-
+		System.out.println("Este es el método LEER");
 	}// fin verporconsola
 
 	public static void crear() throws IOException {
